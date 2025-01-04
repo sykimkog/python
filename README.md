@@ -10,20 +10,20 @@
 
 2. 가상 환경 생성
 
-    python 3.9 버전으로 venv 라는 이름의 가상 환경 생성 예
+    python 3.10 버전으로 venv 라는 이름의 가상 환경 생성 예
 
     ```
-    python -m virtualenv venv --python=python3.9
+    python -m virtualenv venv --python=python3.10
     ```
 
 3. 가상 환경 활성화
 
     ```
-    ./venv/Scripts/activate
+    source ./venv/bin/activate
     ```
 
 4. 가상 환경 비활성화
 
     ```
-    ./venv/Scripts/deactivate
+    deactivate
     ```
