@@ -27,3 +27,17 @@
     ```
     deactivate
     ```
+
+## 새로운 가상 환경에 현재 가상 환경 구성 옮기기
+
+1. 패키지 목록 저장
+
+    ```
+    pip freeze > requirements.txt
+    ```
+
+2. 패키지 설치
+
+    ```
+    pip install -r requirements.txt
+    ```
